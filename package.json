@@ -3,21 +3,22 @@
   "version": "1.0.0",
   "description": "A JavaScript function that can calculate factorial numbers",
   "keywords": [
-    "factorial"
+    "factorial",
+    "Math"
   ],
-  "homepage": "https://github.com/RichardLiuCode/getFactorial---2026-1-2#readme",
+  "homepage": "https://github.com/RichardLiuCode/factorialjs#readme",
   "bugs": {
-    "url": "https://github.com/RichardLiuCode/getFactorial---2026-1-2/issues"
+    "url": "https://github.com/RichardLiuCode/factorialjs/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RichardLiuCode/getFactorial---2026-1-2.git"
+    "url": "git+https://github.com/RichardLiuCode/factorialjs.git"
   },
   "license": "MIT",
   "author": "Richard Liu",
   "type": "commonjs",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No tests yet\""
   }
 }
