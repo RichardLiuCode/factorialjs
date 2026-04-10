@@ -1,19 +1,27 @@
-async function getFactorial(input) {
+async function calc(input) {
     if (input < 0) {
-        throw new Error("input must be larger or equal to 0");
+        return "input must be larger or equal to 0";
     } else if (input != Math.round(input)) {
-        throw new Error("input must be an integer");
+        return "input must be an integer";
+    } else if (input > 20) {
+        input = BigInt(input.toString());
+        let result = 1n;
+        let n = input;
+        while (n > 1n) {
+            result = result * n;
+            n--;
+        }
+        return result;
     } else {
-        const calculate = await new Promise(function (resolve, reject) {
-            let result = 1;
-            let n = input;
-            while (n > 1) {
-                result = result * n;
-                n--;
-            }
-            resolve(result);
-        });
-        return calculate;
+
+        let result = 1;
+        let n = input;
+        while (n > 1) {
+            result = result * n;
+            n--;
+
+        }
+
     }
 }
-module.esports = { getFactorial };
+module.exports = { calc };
