@@ -17,7 +17,8 @@
   "license": "MIT",
   "author": "Richard Liu",
   "type": "commonjs",
-  "main": "script.js",
+  "main": "./app.js",
+  "browser": "./browser.js",
   "scripts": {
     "test": "echo \"No tests yet\""
   }

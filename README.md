@@ -7,7 +7,7 @@ A JavaScript Library that can calculate factorial numbers
 Add this script tag to your HTML code
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/richard-factorialjs@1.0.0/script.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/richard-factorialjs@1.0.0/browser.min.js"></script>
 ```
 
 # Usage
