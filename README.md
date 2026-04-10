@@ -9,7 +9,7 @@ A JavaScript Library that can calculate factorial numbers
 Add this script tag to your HTML code
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/richard-factorialjs@/browser.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@richardliucode/factorial/browser.min.js"></script>
 ```
 
 **For Node.js**
@@ -17,7 +17,7 @@ Add this script tag to your HTML code
 Install cmd
 
 ```bash
-npm install richard-factorialjs
+npm install @richardliucode/factorial
 ```
 
 ----
@@ -37,7 +37,7 @@ console.log(result); //3628800
 **Node.js**
 
 ```javascript
-const factorial = require("./app.js");
+const factorial = require("@richardliucode/factorial");
 const input = 10
 factorial.calc(input).then(function(result) {
     console.log(result); //3628800

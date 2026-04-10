@@ -19,9 +19,8 @@ async function calc(input) {
         while (n > 1) {
             result = result * n;
             n--;
-
         }
-
+        return result;
     }
 }
 module.exports = { calc };
